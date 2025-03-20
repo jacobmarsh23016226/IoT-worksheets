@@ -30,7 +30,7 @@ void MessageHandler::handleMessage(const char* message, const char* clientIp, ui
             {"properties", {
                 {"id", receivedJson["id"]},
                 {"timestamp", formatTimestamp(now)}, // Human-readable timestamp
-                {"status", "Active"}
+                {"status", "unlocked"}
             }}
         };
 
